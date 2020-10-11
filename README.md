@@ -14,8 +14,12 @@ The datasets are free to use and can be easily downloaded.
 ## Train
 
 "train.py" has two positional arguments, execution of the form:
+```
 $ python train.py <architecture> <encoder>
-```bash
+```
+the model, test images list and Tensorboard logs will be save in dedicated time stamped folder 
+
+```
 
 $ $ python train.py -h
 usage: train.py [-h] [-g GPU_INDEX]
@@ -51,6 +55,8 @@ epoch 2/300 train loss 0.5157 test loss 0.5055
 epoch 3/300 train loss 0.4877 test loss 0.4634
 ...
 ```
+## TensorBoard Outputs
+![Alt text](outputs_example.png?raw=true "example of tensorboard outputs")
 ## Inference
 
 ```
