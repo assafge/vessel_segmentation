@@ -1,11 +1,15 @@
 # Vessels Segmentation
 
-Vessels Segmentation is a Python library for training and evaluating segmentation networks of fundus images.
+Vessels Segmentation is a PyTorch based library for training and evaluating segmentation networks of fundus images.
 
-## Installation
+## Datasets
+* CHASEDB1 
+* DRIVE
+* HRF
+* IOSTAR
+* STARE
 
-no pip installation available, clone it.
-
+The datasets are free to use and can be easily downloaded. 
 
 ## Train
 
